@@ -61,6 +61,32 @@ The system processes telemetry from the edge device and dynamically dispatches a
 
 ---
 
+---
+
+## 📊 Project Decision Matrix
+
+The following matrix evaluates the proposed IoT surveillance system against traditional and high-end alternative approaches across key technical and operational parameters:
+
+| Selection Criteria | Weight (%) | Option 1: Manual Patrolling & Searchlights | Option 2: High-End Proprietary Military Systems | Option 3: Proposed IoT System (Arduino + Dual Sensors) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Component & Deployment Cost** | **25%** | **4** (Low equipment cost, high labor cost) | **1** (Very expensive proprietary hardware) | **5** (Very low-cost, off-the-shelf parts) |
+| **Night & Darkness Operation** | **20%** | **1** (Fails in total darkness/fog) | **5** (Full military-grade thermal/IR) | **4** (Effective via thermal PIR + ultrasonic) |
+| **Soldier Safety / Stealth** | **20%** | **1** (Exposes position & risks soldier lives) | **4** (Remote monitoring enabled) | **4** (Autonomous early warning without location exposure) |
+| **False Alarm Reduction** | **15%** | **2** (High human error & fatigue) | **4** (Advanced AI filter) | **4** (Dual-confirmation: Thermal + Ultrasonic) |
+| **Multi-Role Information Sharing** | **10%** | **1** (Manual verbal/radio comms) | **3** (Restricted military command view only) | **5** (Web dashboard for Civilian, Army, & Rescue views) |
+| **Portability & Ease of Setup** | **10%** | **2** (Requires personnel deployment) | **2** (Bulky & heavy field setup) | **4** (Compact micro-controller footprint) |
+| **Weighted Total Score** | **100%** | **2.25 / 5.00** | **3.15 / 5.00** | **4.35 / 5.00 (Selected Solution)** |
+
+*Scoring Scale: 1 = Very Poor, 2 = Poor, 3 = Moderate, 4 = Good, 5 = Excellent*
+
+### 💡 Evaluation Summary
+
+* **Option 1 (Manual Patrolling):** Exposes personnel to high danger and performs poorly in total darkness or adverse weather due to human fatigue[cite: 1].
+* **Option 2 (High-End Military Systems):** Offers high accuracy but scores poorly on affordability, power requirements, and field deployment flexibility[cite: 1].
+* **Option 3 (Proposed IoT System - Selected):** Scores highest overall (**4.35 / 5.00**). Combining passive thermal sensing with ultrasonic distance metrics on a sweeping servo motor delivers autonomous night coverage, low latency, and real-time multi-role threat dissemination[cite: 1].
+
+---
+
 ## 🔄 System Operational Workflow
 
 ```text
