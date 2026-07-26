@@ -87,7 +87,7 @@ The following matrix evaluates the proposed IoT surveillance system against trad
 
 ## 🔄 System Operational Workflow
 
-
+```text
        [ Servo Rotates 0° -> 180° ]
                     │
        [ Ultrasonic & Thermal Sensing ]
@@ -108,7 +108,7 @@ The following matrix evaluates the proposed IoT surveillance system against trad
         ├── Civilian View
         ├── Army Authority View
         └── Rescue Team View
-
+```
 ---
 
 Contributors
