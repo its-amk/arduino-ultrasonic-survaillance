@@ -61,8 +61,6 @@ The system processes telemetry from the edge device and dynamically dispatches a
 
 ---
 
----
-
 ## 📊 Project Decision Matrix
 
 The following matrix evaluates the proposed IoT surveillance system against traditional and high-end alternative approaches across key technical and operational parameters:
@@ -89,7 +87,7 @@ The following matrix evaluates the proposed IoT surveillance system against trad
 
 ## 🔄 System Operational Workflow
 
-```text
+
        [ Servo Rotates 0° -> 180° ]
                     │
        [ Ultrasonic & Thermal Sensing ]
@@ -110,3 +108,18 @@ The following matrix evaluates the proposed IoT surveillance system against trad
         ├── Civilian View
         ├── Army Authority View
         └── Rescue Team View
+
+---
+
+Contributors
+
+Done by :
+ 1. Aashish Awasthi - 1CR25CS001
+ 2. Abdul Malik Khan - 1CR25CS002
+ 3. A.M Suman - 1CR25EC001
+ 4. Aakriti Kumari - 1CR25ES002
+
+---
+
+License
+Private — All rights reserved.
